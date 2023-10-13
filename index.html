@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design y Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body style="background-color:#EAB8D9;">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="color: white;background-color:#E38C24; ">
+        <div class="container-fluid">
+            
+            <div class="navbar-header" style="padding-right: 55px;">
+                <a class="navbar-brand " href="#">NAVBAR</a>
+            </div>
+    
+            <div class="ml-auto">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 d-lg-none">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="navbar-nav col-3 justify-content-between">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-item nav-link d-lg-none" href="#opciones" id="mostrarOpciones">Opciones</a>
+                </div>
+            <div class="col-7"></div>
+            <div class="col-lg-2 ">
+                <form class="d-none d-lg-block" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+            
+            </div>
+        </div>
+    </nav>
+        
+    <div class="container d-none d-lg-block" style="padding-top: 50px;">
+        <h1 class="text-center" style="color: white;">Chechu</h1>
+        <div class="carousel slide text-center" data-bs-ride="carousel" style="padding-bottom: 50px;">
+            <div class="carousel-inner " >
+              <div class="carousel-item active" data-bs-interval="2000">
+                <p style="color: white;">Canovas</p>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <p style="color: white;">Pisco</p>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <p style="color: white;">4.939.688-2</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+<div class="container ">
+      
+    <div class="row">
+
+        <div class="col-lg-3 d-none d-lg-block my-2 " id="opciones">
+            <ul class="list-group">
+                <li class="list-group-item text-decoration-underline" style="background-color: #709A86;">Opcion 1</li>
+                <li class="list-group-item text-decoration-underline" style="background-color: #709A86;">Opcion 2</li>
+                <li class="list-group-item text-decoration-underline" style="background-color: #709A86;">Opcion 3</li>
+                <li class="list-group-item text-decoration-underline" style="background-color: #709A86;">Opcion 4</li>
+            </ul>
+        </div>
+
+        <div class="col-lg-9 col-md-12 ">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 my-2" style="background-color: #C572A5; text-align: justify;">
+                    <p class="text-justify" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam facere mollitia nesciunt alias quas, corporis fugit placeat optio sit ab, natus deserunt assumenda, nulla temporibus accusamus odio ratione! Officia.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-2" style="background-color: #C572A5; text-align: justify;">
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam facere mollitia nesciunt alias quas, corporis fugit placeat optio sit ab, natus deserunt assumenda, nulla temporibus accusamus odio ratione! Officia.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-2" style="background-color: #C572A5; text-align: justify;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam facere mollitia nesciunt alias quas, corporis fugit placeat optio sit ab, natus deserunt assumenda, nulla temporibus accusamus odio ratione! Officia.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-2" style="background-color: #C572A5; text-align: justify;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam facere mollitia nesciunt alias quas, corporis fugit placeat optio sit ab, natus deserunt assumenda, nulla temporibus accusamus odio ratione! Officia.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-2" style="background-color: #C572A5; text-align: justify;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam facere mollitia nesciunt alias quas, corporis fugit placeat optio sit ab, natus deserunt assumenda, nulla temporibus accusamus odio ratione! Officia.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-2" style="background-color: #C572A5; text-align: justify;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam facere mollitia nesciunt alias quas, corporis fugit placeat optio sit ab, natus deserunt assumenda, nulla temporibus accusamus odio ratione! Officia.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-2" style="background-color: #C572A5; text-align: justify;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam facere mollitia nesciunt alias quas, corporis fugit placeat optio sit ab, natus deserunt assumenda, nulla temporibus accusamus odio ratione! Officia.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-2" style="background-color: #C572A5; text-align: justify;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nam facere mollitia nesciunt alias quas, corporis fugit placeat optio sit ab, natus deserunt assumenda, nulla temporibus accusamus odio ratione! Officia.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+</body>
+</html>
